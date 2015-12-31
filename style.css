@@ -1,0 +1,147 @@
+/*--------------------------------------------------------------
+1. - Basics
+--------------------------------------------------------------*/
+
+body {
+	text-align: center;
+	color: #fff;
+	background: #000;
+}
+
+#container {
+  
+  width: 80%;
+  margin: auto;
+  border : 5px solid #000;
+}
+
+
+nav {
+margin: auto;
+padding-bottom: 20px;
+font-family: 'open_sansbold', Arial, sans-serif;
+}
+
+nav a {
+
+	font-size: 25px;
+	font-color: #fff;
+	margin: 20px 10px 20px 20px;
+	text-decoration: none;
+}
+
+nav a:hover  {
+	color: #fff;
+	box-shadow: 0px 0px 40px 5px #A6EFF4;
+}
+
+nav a:visited {
+    text-decoration: underline;
+    color: #efefef;
+}
+
+nav a.current {
+	color: #A6EFF4;
+}
+
+nav a.now {
+	color: #FD9759;
+}
+
+section {
+	text-align:  left;
+	float: left;
+	vertical-align: top;
+	font-family: 'open_sansbold', Arial, sans-serif;
+	margin: auto;
+	width: 400px;
+}
+
+
+section h1 {
+font-size: 20px;
+font-weight: bold;
+margin-left: 20px;
+margin-top: 10px;
+
+}
+
+section h2 {
+	font-size: 12px;
+	font-weight: normal;
+	margin-top: -14px;
+	margin-left: 20px;
+}
+
+#sections {
+	margin: auto;
+	width: 800px;
+}
+
+.picture {
+	height: 272px;
+}
+
+.future-picture {
+
+	height: 372px;
+}
+
+.below-picture {
+    height: 100px;
+
+}
+
+ .text-top {
+	background: #efefef;
+	height: 272px;
+	width: 400px;
+	color: #999;
+}
+
+ .text-bottom {
+	background: #343434;
+	height: 100px;
+	width: 400px;
+}
+
+
+.pic1 {
+   display: inline-block;
+   margin: 20px 10px 20px 22px;
+   font-size: 11px;
+   text-align: center;
+
+}
+
+.pic2 {
+   display: inline-block;
+   margin: 20px 10px;
+   font-size: 11px;
+   text-align: center;
+}
+
+.pic3 {
+	display: inline-block;
+     margin: 20px 10px;
+     font-size: 11px;
+     text-align: center;
+}
+
+
+.futurepic {
+	height:372px; 
+	width:400px;
+}
+
+/*--------------------------------------------------------------
+1. - Lists
+--------------------------------------------------------------*/
+
+ul li {
+	padding: 5px;
+}
+
+ul {
+    list-style-image: url('images/enso.png');
+}
