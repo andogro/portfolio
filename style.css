@@ -1,6 +1,4 @@
-/*--------------------------------------------------------------
-1. - Basics
---------------------------------------------------------------*/
+/*Basics*/
 
 body {
 	text-align: center;
@@ -10,21 +8,25 @@ body {
   background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAFCAYAAACXU8ZrAAAAmUlEQVQIWx3MO47CMBRA0evYQaKYAvYNFQKaGWkk6OipKNgPgmDsF//CQ+Is4JjL+aohCHcfkDzhU8bLCK6n1InH02OOh5NKLKTWGF4ZaZVuNiflSpBI1zvMZv+vKRW8JGJuSG5gHWodMY1YZzDr3Z+2SYljQe0MyZXyVoztv1OIA2a1/dXO9pSmDCFS6pufxZIxF26PO9YqHwduZgBJWOBYAAAAAElFTkSuQmCC");
   font-family: 'open_sansbold', Arial, sans-serif;
 }
+
 h1 {
 font-size: 20px;
 font-weight: bold;
 margin-left: 20px;
 margin-top: 10px;
 }
+
 h2 {
   font-size: 12px;
   font-weight: normal;
   margin-top: -14px;
   margin-left: 20px;
 }
+
 ul li {
   padding: 5px;
 }
+
 ul {
     list-style-image: url('images/enso.png');
 }
@@ -60,79 +62,51 @@ nav a:current {
 main {
   margin: auto;
   width: 80%;
+  text-align: left;
+  vertical-align: top;
+  color: #999;
+  background-color: #efefef;
+  overflow: auto;
 }
-
-section {
-	text-align: left;
-	float: left;
-	vertical-align: top;
-	font-family: 'open_sansbold', Arial, sans-serif;
-	margin: auto;
-	width: 50%;
-}
-
 .top {
-  clear: both;
-  height: 272px;
+  margin: 0px;
+  padding: 0px;
 }
 
 .picture {
-  height: 272px;
-  text-align: right;
-}
-
- .text-top {
+  float: left;
   width: 50%;
-  color: #999;
-  background-color: #efefef;
-  height: 272px;
-  overflow: auto;
-}
-
-.below-picture {
-    width: 100%;
+  margin-right: 30px;
 }
 
   /*future page*/
 
-.futurepic {
-  height:372px; 
-  width:400px;
-}
-
- .text-bottom {
-  float: right;
-  width: 50%;
-  background-color: #efefef;
-  color: #666;
-}
-
 .picfuture {
    display: inline-block;
-   margin: 5px 17px;
+   margin: 5px 5px;
    text-align: center;
 }
 
- .text-top-future {
-  width: 50%;
-  color: #999;
-  background-color: #efefef;
-  height: 372px;
-  overflow: auto;
+.picfuture:hover {
+  box-shadow: 5px 5px 8px 2px #333;
 }
-
 
 /*Bottom Images*/
 
 aside {
   margin: auto;
   width: 80%;
+  clear: both;
 }
 
 .pic {
    display: inline-block;
    margin: 20px 14px;
    text-align: center;
+}
+
+.pic4 {
+  max-width: 100px;
 }
 
 .pic:hover {
