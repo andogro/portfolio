@@ -36,7 +36,17 @@ $('.top').append('<img src ="images/frisbee_golf.jpg" alt ="Frisbee Golf" class=
 
 $('.pic7').on('click', function() {
 removePic();
-$('.top').append('<img src ="images/frisbee_golf.jpg" alt ="Frisbee Golf" class="picture">');
+$('.top').append('<img src ="images/future.gif" alt ="Future" class="picture">');
+});
+
+$('.pic8').on('click', function() {
+removePic();
+$('.top').append('<img src ="images/future2.gif" alt ="Future" class="picture">');
+});
+
+$('.pic9').on('click', function() {
+removePic();
+$('.top').append('<img src ="images/future3.gif" alt ="Future" class="picture">');
 });
 
 });
