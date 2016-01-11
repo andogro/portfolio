@@ -28,7 +28,7 @@ ul li {
 }
 
 ul {
-    list-style-image: url('images/enso.png');
+    list-style-image: url('../images/enso.png');
 }
 
 /*Navigation*/
@@ -81,22 +81,6 @@ main {
   float: left;
   width: 50%;
   margin-right: 30px;
-}
-
-  /*future page*/
-
-.future {
-color: #A6EFF4;
-}
-
-.picfuture {
-   display: inline-block;
-   margin: 5px 5px;
-   text-align: center;
- }
-
-.picfuture:hover {
-  box-shadow: 5px 5px 8px 2px #333;
 }
 
 /*Bottom Images*/
